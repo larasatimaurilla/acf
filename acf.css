@@ -269,6 +269,19 @@ footer {
     text-align: center;
 }
 
+/* Center the text horizontally */
+footer p {
+    margin: 0; /* Remove default margin to ensure proper centering */
+}
+
+/* Center the text vertically */
+footer {
+    min-height: 100px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media (max-width: 991px) {
     .missions .content h3 {
         font-size: 30px;
